@@ -25,7 +25,8 @@ nav{
 }
 
 #logo1{
-    width: 300px;
+    width: 400px;
+    padding:0px 20px 0px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1.5px;
