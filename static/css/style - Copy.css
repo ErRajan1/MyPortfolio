@@ -1,0 +1,420 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: calibri;
+    /* color: white; */
+
+}
+nav{
+    width: 100%;
+    line-height: 50px;
+    /* padding: 0px,100px; */
+    /* position: fixed; */
+    background:#140d0ed2;
+}
+
+@keyframes logo1{
+    0%{letter-spacing: 1px;}
+    50%{letter-spacing: 10px;}
+    100%{letter-spacing: 1px;}
+    
+    
+}
+
+#logo1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    animation-name: logo1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+a{
+    text-decoration: none;
+}
+
+#hul{
+    float: right;
+    list-style: none;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 10px;
+}
+
+#hul li{
+    display: inline-block;
+    padding:0px 50px;
+
+}
+
+
+
+#hul li a{
+    /* text-decoration: none; */
+    color:white;
+    text-transform: capitalize;
+}
+
+#hul li a:hover{
+    color:black;
+    border: 2px solid blue;
+    background: white;
+    border-radius: 15px 15px;
+    padding: 5px 10px;
+   
+}
+
+@keyframes myphoto{
+    0%{margin-left: 0px;}
+    50%{margin-left: 50px;}
+    100%{margin-left: 0px;}
+}
+
+#myphoto img{
+    max-width: 300px;
+    animation-name: myphoto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+/* --------------------------Index Page----------------------------- */
+
+@keyframes imglogo{
+    0%{margin-left-left: 0px;}
+    50%{margin-left: 5px;}
+    100%{margin-left-left: 0px;}
+}
+
+#imglogo img{
+    width: 30px;
+    border-radius: 50px;
+    margin: 0px 10px;
+    /* border: 2px solid blue; */
+    animation-name: imglogo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#imglogo img:hover{
+    width: 35px;
+}
+
+#index{
+    background: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #index .container{
+    margin: 0px;
+} */
+
+#index .row{
+    /* background: black; */
+    color: white;
+    /* margin: 20px auto; */
+}
+
+ #sid{
+    color: rgb(212, 168, 24);
+    list-style: none;
+    
+}
+
+#sid li{
+    margin: 15px auto;
+}
+
+@keyframes span{
+    0%{letter-spacing: 1px;}
+    50%{letter-spacing: 5px; max-width: 100%; padding-left: 8px; margin-left: 50px;}
+    100%{letter-spacing: 1px;}
+}
+
+#sid span{
+    background: linear-gradient(45deg,red,blue) ;
+    color: white;
+    font-family: bold;
+    padding: 5px;
+    border-radius: 5px;
+    animation-name: span;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in; */
+    
+}
+
+#sid span:hover{
+    background: white;
+    color: black;
+}
+
+#certificates img{
+    border-radius: 20px;
+    border: 5px solid blue;
+    max-height: 550px;
+}
+
+#projects .card{
+    color: black;
+    align-items: center;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+#projects img{
+    max-width: 80px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+
+#hr{
+    background: linear-gradient(45deg,red,blue,yellow,green,blue);
+    /* color: rgb(212, 168, 24); */
+    height: 5px;
+    border-radius: 5px;
+    margin:20px;
+}
+
+
+
+
+
+/* --------------------------Calculator----------------------------- */
+
+#cbg{
+    background: #ff0000;
+    max-width: 300px;
+    border-radius: 5px;
+    /* justify-content: center; */
+}
+
+#screen{
+    background: black;
+    color: white;
+    text-align: right;
+    height: 80px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+#cbrow{
+    max-width: 310px;
+    margin: 0px auto;
+    padding: 5px;
+    background: red;
+    
+}
+
+#cbrow .button{
+    background: black;
+    color: white;
+    margin: 2px;
+}
+#cbrow .button:hover{
+    background: white;
+    color: black;
+}
+
+
+
+
+
+/* --------------------------Music Player----------------------------- */
+
+/* #musicPalyerContainer{
+    max-height: 500px;
+} */
+#songControl{
+background: white;
+max-height: 500px;
+border-radius: 50px;
+margin: 10px;
+
+}
+
+#songBody{
+    /* align-items: center; */
+    justify-content: center;
+    background: rgb(70, 69, 69);
+    color: white;
+}
+
+#songList{
+    background: white;
+    color: black;
+    max-height: 500px;
+    border: 3px solid red;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.scroll-bar{
+    height: 100%;
+    margin: 10px;
+    overflow: auto;
+    /* max-height: 450px; */
+
+}
+
+#songCard{
+    padding: 15px;
+    margin: 5px auto;
+    max-width: 350px;
+    border-radius: 30px;
+    
+}
+
+#c1{
+    max-width: 20px;
+    margin-left: 40%;
+}
+
+#songCard .row{
+    height: 40px;
+    /* display: flex; */
+    align-items: center;
+}
+
+
+#songControl .card{
+    margin: 10px auto;
+    width: 280px;
+
+}
+
+#simg{
+    background: none;
+    max-height: 280px;
+    border-radius: 150px;
+
+}
+
+#range1{
+    background: green;
+    border: none;
+}
+
+#mbtn{
+    /* display: none; */
+    max-width: 200px;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0px 5px 15px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 50px;
+}
+
+#mbtn span{
+    display: grid;
+    /* grid-template-columns: 30% 30% 30%; */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#mbtn span button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(189, 189, 189);
+    border: none;
+    border-radius: 80px;
+    box-shadow: 
+    -3px -3px 4px 0px rgb(255, 253, 253),
+    5px 4px 4px 0px rgba(71, 71, 71, 0.425);
+
+}
+#mbtn img{
+    max-height: 20px;
+}
+
+#progressBar{
+    height: 10px;
+    width: 90%;
+    margin: 10px 0px;
+    background-color: rgb(65, 44, 44);
+    border-radius: 10px;
+}
+
+#progress{
+    width: 0%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: red;
+    /* transition: all 0.5ms ease-in-out; */
+}
+
+
+
+
+
+
+
+/* --------------------------Footer Page----------------------------- */
+
+#footer{
+    background: rgb(70, 69, 69);
+    color: white;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* #footer p{
+    /* max-width: 300px;
+} */
+
+#footer .row{
+    justify-content: center;
+}
+
+
+
+#footer .col-5{
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+#footer input:invalid{
+    border: 2px solid red;
+    animation-name: shake;
+    animation-duration: 0.2s;
+}
+
+@keyframes shake{
+    25%{translate: 6px 0;}
+    50%{translate: -6px 0;}
+    75%{translate: 6px 0;}
+}
+
+#footer input:hover{
+    animation-name: inputhover;
+    animation-duration: 5s;
+}
+
+@keyframes inputhover{
+    0%{width:300px ;}
+    50%{width: 400px;}
+    100%{width: 300px;}
+}
+
+#footer button{
+    background: linear-gradient(45deg,blue,red);
+    border-radius: 5px;
+
+    margin: 8px;
+
+}
+
+#footer button:hover{
+    background: white;
+    color: black;
+}
