@@ -1,29 +1,27 @@
 // Calculator
 
-let string = "0";
+let string = "";
 
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach(function(button){
     button.addEventListener('click',function(v){
         let bd = v.target.innerText;
         if(bd == '='){
-            if(string==''){
-                string='0'
-            }
 
+            string = document.getElementById('screen').value;
 
             string = eval(string);
             string =String(string);
             document.querySelector('#screen').value = string;
         }
         else if(bd == 'C'){
-            string = '0';
+            string = '';
             document.querySelector('#screen').value = string;
         }
         else if(bd == 'x'){
             string = string.slice(0,-1);
             if(string == ''){
-                string='0';
+                string='';
             }
             document.querySelector('#screen').value = string;
         }
