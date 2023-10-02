@@ -201,6 +201,9 @@ a{
 
 #sid li{
     margin: 15px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
 }
 
 /* @keyframes span{
@@ -214,6 +217,7 @@ a{
 } */
 
 #sid span{
+    border: 2px solid white;
     background: white;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -225,9 +229,8 @@ a{
     /* animation-timing-function: ease-in; */
     
 }
-
 #sid span:hover{
-    border: 1px solid blue ;
+    border: 2px solid blue;
 }
 
 #certificates img{
@@ -408,11 +411,14 @@ a{
     
     #songCard{
         padding: 15px;
-        margin: 5px auto;
+        margin: 5px;
         max-width: 80%;
-        border-radius: 20px;
+        height: 20%;
+        border-radius: 40px;
         
     }
+
+
     
     #c1{
         max-width: 20px;
